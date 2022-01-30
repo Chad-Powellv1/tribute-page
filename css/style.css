@@ -9,7 +9,7 @@ body {
     font-size: 1.4em;
     background-color: #FFFFFF;
     color: #000000;
-    box-shadow: 5px 0px #000000;
+    box-shadow: 5px 0px #333333;
     text-align: center;
     opacity: 0.7;
 }
@@ -30,5 +30,5 @@ h5 {
     max-width: 825px;
     text-align: center;
     padding-top: 0.8em;
-    box-shadow: 5px 0px #000000;
+    box-shadow: 5px 0px #333333;
 }
