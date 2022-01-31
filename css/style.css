@@ -50,7 +50,7 @@ h5 {
     border-radius: 5px;
 }
 
-.modal {
+.bioModal {
     display: none;
     position: fixed;
     left: 50%;
@@ -63,15 +63,22 @@ h5 {
     background-color: #FFFFFF;
 }
 
-.close {
+.bioContent {
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%;
+}
+
+.bioClose {
     color: rgb(255, 0, 0);
     float: right;
     font-size: 24px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.bioClose:hover,
+.bioClose:focus {
     text-decoration: none;
     color: rgb(121, 0, 0);
     cursor: pointer;
