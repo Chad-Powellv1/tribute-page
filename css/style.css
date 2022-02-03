@@ -1,22 +1,19 @@
 body,
 html {
     height: 100%;
-}
-
-#bg {
-    background: url(/img/dnaBackgnd.jpg);
-    height: 100;
-    background-position: fit;
-    background-repeat: no-repeat;
+    background: url(/img/dnaBackgnd.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    overflow: hidden;
+    overflow-y: inherit;
 }
 
 #main {
     max-width: 825px;
-    max-height: 100%;
+    height: auto;
     margin: 50px auto;
-    padding: 2.5px 0px 0px 0px;
+    padding: 2.5px 0px 25px 0px;
     font-size: 1.4em;
     background-color: #ffffff;
     color: #000000;
@@ -118,4 +115,11 @@ ul {
 
 a {
     text-align: center;
+}
+
+#tribute-info {
+    display: inline-block;
+    text-align: justify;
+    align-content: center;
+    max-width: 85%;
 }
